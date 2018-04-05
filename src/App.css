@@ -1,0 +1,67 @@
+.App {
+  /* text-align: center; */
+  background-color:rgb(230, 230, 230);
+  height:100vh;
+}
+
+.App > *{
+  margin:auto;
+  width:95%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.toDo{
+  box-shadow:2px 2px 4px #919191;
+  padding:20px;
+  background-color:white;
+}
+
+.toDo input{
+  border:none;
+  border-bottom:solid black 2px;
+  padding:10px;
+  width:80%;
+}
+
+.toDo button{
+  border:none;
+  padding:10px;
+  background-color:rgb(97, 97, 255);
+  color:white;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.taskList{
+  margin-top:10px;
+}
+
+.taskList > *{
+  width:90%;
+  margin:auto;
+}
+
+.taskDiv{
+  background-color:white;
+  padding:10px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+  align-content: stretch;
+  box-shadow:2px 2px 4px #919191;
+  margin-bottom:10px;
+}
+
+.taskDiv > *{
+  margin-right:10px;
+}
+
+.task{
+  flex:1;
+}
